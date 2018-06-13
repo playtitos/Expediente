@@ -1,0 +1,27 @@
+<header class="cd-auto-hide-header">
+    <nav class="cd-primary-nav">
+        <a href="#cd-navigation" class="nav-trigger">
+            <span>
+                <em aria-hidden="true"></em>
+                Menu
+            </span>
+        </a>
+
+        <ul id="cd-navigation">
+            <li>
+                <a href="#0">Equipo</a>
+            </li>
+            <li>
+                <a href="#0">Nosotros</a>
+            </li>
+        </ul>
+    </nav>
+
+    <nav class="cd-secondary-nav">
+
+        <ul>
+            <li ng-repeat="secc in secciones">
+                <a ng-click="cambia_vista_seccion(secc)" class="{{secc.estado}}">{{ secc.nombre }}</a>
+            </li>
+        </ul>
+</header>
