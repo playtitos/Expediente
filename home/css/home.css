@@ -50,3 +50,12 @@
     vertical-align: inherit !important;
     text-align: center;
 }
+
+.no-option{
+    display: none;
+}
+
+.espacio{
+    box-sizing: border-box;
+    padding-right: 5px;
+}

@@ -34,14 +34,22 @@
             <tr>
                 <td class="col-md-6">Fecha nacimiento</td>
                 <td class="col-md-6">
-                    <input type="date" class="form-control" ng-model="fecnac" placeholder="Ingrese curp" maxlength="18">
+                    <input type="date" class="form-control" ng-model="fecnac">
                 </td>
             </tr>
             <tr>
                 <td class="col-md-6">Sexo</td>
                 <td class="col-md-6">
-                    <input type="radio" ng-model="sexo" value="1">Hombre
-                    <input type="radio" ng-model="sexo" value="2">Mujer
+                    <input type="radio" ng-model="sexo" value="1" class="espacio">&nbsp;Hombre&nbsp;&nbsp;
+                    <input type="radio" ng-model="sexo" value="2" class="espacio">&nbsp;Mujer
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-6">Estado de nacimiento</td>
+                <td class="col-md-6">
+                    <select class="form-control" ng-model="estado_nacimiento" ng-options="estado.id as estado.nombre for estado in estados">
+                        <option class="no-option" value="">-- SELECT --</option>
+                    </select>
                 </td>
             </tr>
         </tbody>
