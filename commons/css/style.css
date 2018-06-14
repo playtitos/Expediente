@@ -13,9 +13,8 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Hind", sans-serif;
-  color: #25283D;
-  background-color: #ECF0F1;
+  font-family: Verdana, regular !important;
+  color: black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

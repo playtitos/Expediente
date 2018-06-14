@@ -7,18 +7,67 @@
             </tr>
         </thead>
         <tbody>
-            <!--tr ng-repeat="welcome in bienvenida">
-                <td class="centrado col-md-2" as-sortable-item-handle>{{welcome.nombre}}</td>
-                <td class="centrado col-md-2" as-sortable-item-handle>{{welcome.titulo}}</td>
-            </tr-->
             <tr>
+                <td>CURP</td>
                 <td>
-                    campo
-                </td>
-                <td>
-                    campo 2
+                    <input type="text" class="form-control" ng-model="curp" placeholder="Ingrese curp" maxlength="18">
                 </td>
             </tr>
+            <tr>
+                <td>Primer apellido</td>
+                <td>
+                    <input type="text" class="form-control" ng-model="apprimero" placeholder="Ingrese primer apellido" maxlength="50">
+                </td>
+            </tr>
+            <tr>
+                <td>Segundo apellido</td>
+                <td>
+                    <input type="text" class="form-control" ng-model="apsegundo" placeholder="Ingrese segundo apellido" maxlength="50">
+                </td>
+            </tr>
+            <tr>
+                <td>Nombre</td>
+                <td>
+                    <input type="text" class="form-control" ng-model="nombre" placeholder="Ingrese nombre" maxlength="50">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table class="table table-hover table-striped table-responsive margen-top" id="elem-bienvenida">
+        <thead>
+            <tr class="cab-gris">
+                <th class="centrado col-md-2">Campo</th>
+                <th class="centrado col-md-2">Datos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fecha nacimiento</td>
+                <td>
+                    <input type="date" class="form-control" ng-model="fecnac" placeholder="Ingrese curp" maxlength="18">
+                </td>
+            </tr>
+            <tr>
+                <td>Sexo</td>
+                <td>
+                    <input type="radio" ng-model="sexo" value="1">Hombre
+                    <input type="radio" ng-model="sexo" value="2">Mujer
+                </td>
+            </tr>
+            <!--tr>
+                <td>Segundo apellido</td>
+                <td>
+                    <input class="form-control" ng-model="apsegundo" placeholder="Ingrese segundo apellido" maxlength="50">
+                </td>
+            </tr>
+            <tr>
+                <td>Nombre</td>
+                <td>
+                    <input class="form-control" ng-model="nombre" placeholder="Ingrese nombre" maxlength="50">
+                </td>
+            </tr-->
         </tbody>
     </table>
 </div>
