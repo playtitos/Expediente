@@ -1,4 +1,4 @@
-expediente.controller("cExpediente", function ($scope, $http, $state) {
+expediente.controller("cHome", function ($scope, $http, $state) {
 
     $scope.init_app_expedinete = function () {
         $scope.crea_menu();

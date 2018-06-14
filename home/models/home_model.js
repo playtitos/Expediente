@@ -1,4 +1,4 @@
-var expediente = angular.module('expediente', ['ui.router']);
+var expediente = angular.module('expediente', ['ui.router', 'secc_expediente']);
 
 expediente.config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider

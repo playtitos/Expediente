@@ -1,0 +1,1 @@
+var secc_expediente = angular.module('secc_expediente', []);

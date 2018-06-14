@@ -24,3 +24,29 @@
     text-decoration: none;
     color: grey;
 }
+
+.cont-secc{
+    box-sizing: border-box;
+    top: 15%;
+    position: fixed;
+    height: 80%;
+    width: 100%;
+    overflow: auto;
+    z-index: -1;
+    margin-top: 1%;
+}
+
+.ochenta{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+.cab-gris{
+    box-sizing: border-box;
+    font-family: Verdana, regular !important;
+    background-color: #e2e2e2 !important;
+    vertical-align: inherit !important;
+    text-align: center;
+}
