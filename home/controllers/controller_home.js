@@ -23,6 +23,44 @@ expediente.controller("cHome", function ($scope, $http, $state) {
         $state.go(secc, { reload: true });
     };
 
+    $scope.peticionGet = function (archivo, datos, fnExito, fnError) {
+        var request = $http.get(archivo, datos, {
+            headers: {
+                'Content-Type': "application/x-www-form-urlencoded; charset=UTF-8"
+            },
+            timeout: 600000
+        });
+
+        if (typeof (fnError) !== "undefined") {
+            request.then(function (response) {
+                fnExito(response);
+            }, fnError);
+        } else {
+            request.then(function (response) {
+                fnExito(response);
+            });
+        }
+    };
+
+    $scope.peticionPost = function (archivo, datos, fnExito, fnError) {
+        var request = $http.post(archivo, datos, {
+            headers: {
+                'Content-Type': "application/x-www-form-urlencoded; charset=UTF-8"
+            },
+            timeout: 600000
+        });
+
+        if (typeof (fnError) !== "undefined") {
+            request.then(function (response) {
+                fnExito(response);
+            }, fnError);
+        } else {
+            request.then(function (response) {
+                fnExito(response);
+            });
+        }
+    };
+
     window.onhashchange = function () {
         $scope.cambia_vista_seccion(document.location.hash.replace('#/', ''))
     }

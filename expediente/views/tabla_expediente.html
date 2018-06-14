@@ -1,33 +1,33 @@
 <div class="ochenta" ng-controller="cExpediente">
-    <table class="table table-hover table-striped table-responsive margen-top" id="elem-bienvenida">
+    <table class="table table-hover table-striped table-responsive col-md-12" id="elem-bienvenida">
         <thead>
             <tr class="cab-gris">
-                <th class="centrado col-md-2">Campo</th>
-                <th class="centrado col-md-2">Datos</th>
+                <th class="col-md-6">Campo</th>
+                <th class="col-md-6">Datos</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>CURP</td>
-                <td>
+                <td class="col-md-6">CURP</td>
+                <td class="col-md-6">
                     <input type="text" class="form-control" ng-model="curp" placeholder="Ingrese curp" maxlength="18">
                 </td>
             </tr>
             <tr>
-                <td>Primer apellido</td>
-                <td>
+                <td class="col-md-6">Primer apellido</td>
+                <td class="col-md-6">
                     <input type="text" class="form-control" ng-model="apprimero" placeholder="Ingrese primer apellido" maxlength="50">
                 </td>
             </tr>
             <tr>
-                <td>Segundo apellido</td>
-                <td>
+                <td class="col-md-6">Segundo apellido</td>
+                <td class="col-md-6">
                     <input type="text" class="form-control" ng-model="apsegundo" placeholder="Ingrese segundo apellido" maxlength="50">
                 </td>
             </tr>
             <tr>
-                <td>Nombre</td>
-                <td>
+                <td class="col-md-6">Nombre</td>
+                <td class="col-md-6">
                     <input type="text" class="form-control" ng-model="nombre" placeholder="Ingrese nombre" maxlength="50">
                 </td>
             </tr>
@@ -35,23 +35,23 @@
     </table>
 
 
-    <table class="table table-hover table-striped table-responsive margen-top" id="elem-bienvenida">
+    <table class="table table-hover table-striped table-responsive col-md-12" id="elem-bienvenida">
         <thead>
             <tr class="cab-gris">
-                <th class="centrado col-md-2">Campo</th>
-                <th class="centrado col-md-2">Datos</th>
+                <th class="col-md-6">Campo</th>
+                <th class="col-md-6">Datos</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Fecha nacimiento</td>
-                <td>
+                <td class="col-md-6">Fecha nacimiento</td>
+                <td class="col-md-6">
                     <input type="date" class="form-control" ng-model="fecnac" placeholder="Ingrese curp" maxlength="18">
                 </td>
             </tr>
             <tr>
-                <td>Sexo</td>
-                <td>
+                <td class="col-md-6">Sexo</td>
+                <td class="col-md-6">
                     <input type="radio" ng-model="sexo" value="1">Hombre
                     <input type="radio" ng-model="sexo" value="2">Mujer
                 </td>
