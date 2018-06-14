@@ -1,0 +1,867 @@
+[
+    {
+        "codigo pais": "101",
+        "pais": "NAMIBIANA",
+        "clave_nacionalidad": "NAM"
+    },
+    {
+        "codigo pais": "103",
+        "pais": "ANGOLESA",
+        "clave_nacionalidad": "AGO"
+    },
+    {
+        "codigo pais": "104",
+        "pais": "ARGELIANA",
+        "clave_nacionalidad": "DZA"
+    },
+    {
+        "codigo pais": "105",
+        "pais": "DE BENNIN",
+        "clave_nacionalidad": "BEN"
+    },
+    {
+        "codigo pais": "106",
+        "pais": "BOTSWANESA",
+        "clave_nacionalidad": "BWA"
+    },
+    {
+        "codigo pais": "107",
+        "pais": "BURUNDESA",
+        "clave_nacionalidad": "BDI"
+    },
+    {
+        "codigo pais": "108",
+        "pais": "DE CABO VERDE",
+        "clave_nacionalidad": "CPV"
+    },
+    {
+        "codigo pais": "109",
+        "pais": "COMORENSE",
+        "clave_nacionalidad": "COM"
+    },
+    {
+        "codigo pais": "110",
+        "pais": "CONGOLESA",
+        "clave_nacionalidad": "COD"
+    },
+    {
+        "codigo pais": "111",
+        "pais": "MARFILEÑA",
+        "clave_nacionalidad": "COG"
+    },
+    {
+        "codigo pais": "112",
+        "pais": "CHADIANA",
+        "clave_nacionalidad": "TCD"
+    },
+    {
+        "codigo pais": "113",
+        "pais": "DE DJIBOUTI",
+        "clave_nacionalidad": "DJI"
+    },
+    {
+        "codigo pais": "114",
+        "pais": "EGIPCIA",
+        "clave_nacionalidad": "EGY"
+    },
+    {
+        "codigo pais": "115",
+        "pais": "ETIOPE",
+        "clave_nacionalidad": "ETH"
+    },
+    {
+        "codigo pais": "116",
+        "pais": "GABONESA",
+        "clave_nacionalidad": "GAB"
+    },
+    {
+        "codigo pais": "117",
+        "pais": "GAMBIANA",
+        "clave_nacionalidad": "GMB"
+    },
+    {
+        "codigo pais": "118",
+        "pais": "GHANATA",
+        "clave_nacionalidad": "GHA"
+    },
+    {
+        "codigo pais": "119",
+        "pais": "GUINEA",
+        "clave_nacionalidad": "GNB"
+    },
+    {
+        "codigo pais": "120",
+        "pais": "GUINEA",
+        "clave_nacionalidad": "GIN"
+    },
+    {
+        "codigo pais": "121",
+        "pais": "GUINEA ECUATORIANA",
+        "clave_nacionalidad": "GNQ"
+    },
+    {
+        "codigo pais": "122",
+        "pais": "LIBIA",
+        "clave_nacionalidad": "LBY"
+    },
+    {
+        "codigo pais": "123",
+        "pais": "KENIANA",
+        "clave_nacionalidad": "KEN"
+    },
+    {
+        "codigo pais": "124",
+        "pais": "LESOTHENSE",
+        "clave_nacionalidad": "LSO"
+    },
+    {
+        "codigo pais": "125",
+        "pais": "LIBERIANA",
+        "clave_nacionalidad": "LBR"
+    },
+    {
+        "codigo pais": "127",
+        "pais": "MALAWIANA",
+        "clave_nacionalidad": "MWI"
+    },
+    {
+        "codigo pais": "128",
+        "pais": "MALIENSE",
+        "clave_nacionalidad": "MLI"
+    },
+    {
+        "codigo pais": "129",
+        "pais": "MARROQUI",
+        "clave_nacionalidad": "MAR"
+    },
+    {
+        "codigo pais": "130",
+        "pais": "MAURICIANA",
+        "clave_nacionalidad": "MUS"
+    },
+    {
+        "codigo pais": "131",
+        "pais": "MAURITANA",
+        "clave_nacionalidad": "MRT"
+    },
+    {
+        "codigo pais": "132",
+        "pais": "MOZAMBIQUEÑA",
+        "clave_nacionalidad": "MOZ"
+    },
+    {
+        "codigo pais": "133",
+        "pais": "NIGERINA",
+        "clave_nacionalidad": "NER"
+    },
+    {
+        "codigo pais": "134",
+        "pais": "NIGERIANA",
+        "clave_nacionalidad": "NGA"
+    },
+    {
+        "codigo pais": "135",
+        "pais": "CENTRO AFRICANA",
+        "clave_nacionalidad": "CAF"
+    },
+    {
+        "codigo pais": "136",
+        "pais": "CAMERUNESA",
+        "clave_nacionalidad": "CMR"
+    },
+    {
+        "codigo pais": "137",
+        "pais": "TANZANIANA",
+        "clave_nacionalidad": "TZA"
+    },
+    {
+        "codigo pais": "139",
+        "pais": "RWANDESA",
+        "clave_nacionalidad": "RWA"
+    },
+    {
+        "codigo pais": "140",
+        "pais": "DEL SAHARA",
+        "clave_nacionalidad": "ESH"
+    },
+    {
+        "codigo pais": "141",
+        "pais": "DE SANTO TOME",
+        "clave_nacionalidad": "STP"
+    },
+    {
+        "codigo pais": "142",
+        "pais": "SENEGALESA",
+        "clave_nacionalidad": "SEN"
+    },
+    {
+        "codigo pais": "143",
+        "pais": "DE SEYCHELLES",
+        "clave_nacionalidad": "SYC"
+    },
+    {
+        "codigo pais": "144",
+        "pais": "SIERRA LEONESA",
+        "clave_nacionalidad": "SLE"
+    },
+    {
+        "codigo pais": "145",
+        "pais": "SOMALI",
+        "clave_nacionalidad": "SOM"
+    },
+    {
+        "codigo pais": "146",
+        "pais": "SUDAFRICANA",
+        "clave_nacionalidad": "ZAF"
+    },
+    {
+        "codigo pais": "147",
+        "pais": "SUDANESA",
+        "clave_nacionalidad": "SDN"
+    },
+    {
+        "codigo pais": "148",
+        "pais": "SWAZI",
+        "clave_nacionalidad": "SWZ"
+    },
+    {
+        "codigo pais": "149",
+        "pais": "TOGOLESA",
+        "clave_nacionalidad": "TGO"
+    },
+    {
+        "codigo pais": "150",
+        "pais": "TUNECINA",
+        "clave_nacionalidad": "TUN"
+    },
+    {
+        "codigo pais": "151",
+        "pais": "UGANDESA",
+        "clave_nacionalidad": "UGA"
+    },
+    {
+        "codigo pais": "152",
+        "pais": "ZAIRANA",
+        "clave_nacionalidad": "ZAR"
+    },
+    {
+        "codigo pais": "153",
+        "pais": "ZAMBIANA",
+        "clave_nacionalidad": "ZMB"
+    },
+    {
+        "codigo pais": "154",
+        "pais": "DE ZIMBAWI",
+        "clave_nacionalidad": "ZWE"
+    },
+    {
+        "codigo pais": "201",
+        "pais": "ARGENTINA",
+        "clave_nacionalidad": "ARG"
+    },
+    {
+        "codigo pais": "202",
+        "pais": "BAHAMEÑA",
+        "clave_nacionalidad": "BHS"
+    },
+    {
+        "codigo pais": "203",
+        "pais": "DE BARBADOS",
+        "clave_nacionalidad": "BRB"
+    },
+    {
+        "codigo pais": "204",
+        "pais": "BELICEÑA",
+        "clave_nacionalidad": "BLZ"
+    },
+    {
+        "codigo pais": "205",
+        "pais": "BOLIVIANA",
+        "clave_nacionalidad": "BOL"
+    },
+    {
+        "codigo pais": "206",
+        "pais": "BRASILEÑA",
+        "clave_nacionalidad": "BRA"
+    },
+    {
+        "codigo pais": "207",
+        "pais": "CANADIENSE",
+        "clave_nacionalidad": "CAN"
+    },
+    {
+        "codigo pais": "208",
+        "pais": "COLOMBIANA",
+        "clave_nacionalidad": "COL"
+    },
+    {
+        "codigo pais": "209",
+        "pais": "COSTARRICENSE",
+        "clave_nacionalidad": "CRI"
+    },
+    {
+        "codigo pais": "210",
+        "pais": "CUBANA",
+        "clave_nacionalidad": "CUB"
+    },
+    {
+        "codigo pais": "211",
+        "pais": "CHILENA",
+        "clave_nacionalidad": "CHL"
+    },
+    {
+        "codigo pais": "212",
+        "pais": "DOMINICA",
+        "clave_nacionalidad": "DMA"
+    },
+    {
+        "codigo pais": "214",
+        "pais": "SALVADOREÑA",
+        "clave_nacionalidad": "SLV"
+    },
+    {
+        "codigo pais": "215",
+        "pais": "ESTADOUNIDENSE",
+        "clave_nacionalidad": "USA"
+    },
+    {
+        "codigo pais": "216",
+        "pais": "GRANADINA",
+        "clave_nacionalidad": "VCT"
+    },
+    {
+        "codigo pais": "217",
+        "pais": "GUATEMALTECA",
+        "clave_nacionalidad": "GTM"
+    },
+    {
+        "codigo pais": "218",
+        "pais": "BRITANICA",
+        "clave_nacionalidad": "VGB"
+    },
+    {
+        "codigo pais": "219",
+        "pais": "GUYANESA",
+        "clave_nacionalidad": "GUY"
+    },
+    {
+        "codigo pais": "220",
+        "pais": "HAITIANA",
+        "clave_nacionalidad": "HTI"
+    },
+    {
+        "codigo pais": "221",
+        "pais": "HONDUREÑA",
+        "clave_nacionalidad": "HND"
+    },
+    {
+        "codigo pais": "222",
+        "pais": "JAMAIQUINA",
+        "clave_nacionalidad": "JAM"
+    },
+    {
+        "codigo pais": "223",
+        "pais": "MEXICANA",
+        "clave_nacionalidad": "MEX"
+    },
+    {
+        "codigo pais": "224",
+        "pais": "NICARAGUENSE",
+        "clave_nacionalidad": "NIC"
+    },
+    {
+        "codigo pais": "225",
+        "pais": "PANAMEÑA",
+        "clave_nacionalidad": "PAN"
+    },
+    {
+        "codigo pais": "226",
+        "pais": "PARAGUAYA",
+        "clave_nacionalidad": "PRY"
+    },
+    {
+        "codigo pais": "227",
+        "pais": "PERUANA",
+        "clave_nacionalidad": "PER"
+    },
+    {
+        "codigo pais": "228",
+        "pais": "PUERTORRIQUEÑA",
+        "clave_nacionalidad": "PRI"
+    },
+    {
+        "codigo pais": "229",
+        "pais": "DOMINICANA",
+        "clave_nacionalidad": "DOM"
+    },
+    {
+        "codigo pais": "230",
+        "pais": "SANTA LUCIENSE",
+        "clave_nacionalidad": "LCA"
+    },
+    {
+        "codigo pais": "231",
+        "pais": "SURINAMENSE",
+        "clave_nacionalidad": "SUR"
+    },
+    {
+        "codigo pais": "232",
+        "pais": "TRINITARIA",
+        "clave_nacionalidad": "TTO"
+    },
+    {
+        "codigo pais": "233",
+        "pais": "URUGUAYA",
+        "clave_nacionalidad": "URY"
+    },
+    {
+        "codigo pais": "234",
+        "pais": "VENEZOLANA",
+        "clave_nacionalidad": "VEN"
+    },
+    {
+        "codigo pais": "299",
+        "pais": "AMERICANA",
+        "clave_nacionalidad": "USA"
+    },
+    {
+        "codigo pais": "301",
+        "pais": "AFGANA",
+        "clave_nacionalidad": "AFG"
+    },
+    {
+        "codigo pais": "303",
+        "pais": "DE BAHREIN",
+        "clave_nacionalidad": "BHR"
+    },
+    {
+        "codigo pais": "305",
+        "pais": "BHUTANESA",
+        "clave_nacionalidad": "BTN"
+    },
+    {
+        "codigo pais": "306",
+        "pais": "BIRMANA",
+        "clave_nacionalidad": "BUR"
+    },
+    {
+        "codigo pais": "307",
+        "pais": "NORCOREANA",
+        "clave_nacionalidad": "PRK"
+    },
+    {
+        "codigo pais": "308",
+        "pais": "SUDCOREANA",
+        "clave_nacionalidad": "KOR"
+    },
+    {
+        "codigo pais": "309",
+        "pais": "CHINA",
+        "clave_nacionalidad": "CHN"
+    },
+    {
+        "codigo pais": "310",
+        "pais": "CHIPRIOTA",
+        "clave_nacionalidad": "CYP"
+    },
+    {
+        "codigo pais": "311",
+        "pais": "ARABE",
+        "clave_nacionalidad": "SAU"
+    },
+    {
+        "codigo pais": "312",
+        "pais": "FILIPINA",
+        "clave_nacionalidad": "PHL"
+    },
+    {
+        "codigo pais": "313",
+        "pais": "HINDU",
+        "clave_nacionalidad": "IND"
+    },
+    {
+        "codigo pais": "314",
+        "pais": "INDONESA",
+        "clave_nacionalidad": "IDN"
+    },
+    {
+        "codigo pais": "315",
+        "pais": "IRAQUI",
+        "clave_nacionalidad": "IRQ"
+    },
+    {
+        "codigo pais": "316",
+        "pais": "IRANI",
+        "clave_nacionalidad": "IRN"
+    },
+    {
+        "codigo pais": "317",
+        "pais": "ISRAELI",
+        "clave_nacionalidad": "ISR"
+    },
+    {
+        "codigo pais": "318",
+        "pais": "JAPONESA",
+        "clave_nacionalidad": "JPN"
+    },
+    {
+        "codigo pais": "319",
+        "pais": "JORDANA",
+        "clave_nacionalidad": "JOR"
+    },
+    {
+        "codigo pais": "320",
+        "pais": "CAMBOYANA",
+        "clave_nacionalidad": "KHM"
+    },
+    {
+        "codigo pais": "321",
+        "pais": "KUWAITI",
+        "clave_nacionalidad": "KWT"
+    },
+    {
+        "codigo pais": "322",
+        "pais": "LIBANESA",
+        "clave_nacionalidad": "LBN"
+    },
+    {
+        "codigo pais": "323",
+        "pais": "MALASIA",
+        "clave_nacionalidad": "MYS"
+    },
+    {
+        "codigo pais": "324",
+        "pais": "MALDIVA",
+        "clave_nacionalidad": "MDV"
+    },
+    {
+        "codigo pais": "325",
+        "pais": "MONGOLESA",
+        "clave_nacionalidad": "MNG"
+    },
+    {
+        "codigo pais": "326",
+        "pais": "NEPALESA",
+        "clave_nacionalidad": "NPL"
+    },
+    {
+        "codigo pais": "327",
+        "pais": "OMANESA",
+        "clave_nacionalidad": "OMN"
+    },
+    {
+        "codigo pais": "328",
+        "pais": "PAKISTANI",
+        "clave_nacionalidad": "PAK"
+    },
+    {
+        "codigo pais": "329",
+        "pais": "DEL QATAR",
+        "clave_nacionalidad": "QAT"
+    },
+    {
+        "codigo pais": "330",
+        "pais": "SIRIA",
+        "clave_nacionalidad": "SYR"
+    },
+    {
+        "codigo pais": "331",
+        "pais": "LAOSIANA",
+        "clave_nacionalidad": "LAO"
+    },
+    {
+        "codigo pais": "332",
+        "pais": "SINGAPORENSE",
+        "clave_nacionalidad": "SGP"
+    },
+    {
+        "codigo pais": "334",
+        "pais": "TAILANDESA",
+        "clave_nacionalidad": "THA"
+    },
+    {
+        "codigo pais": "335",
+        "pais": "TAIWANESA",
+        "clave_nacionalidad": "TWN"
+    },
+    {
+        "codigo pais": "336",
+        "pais": "TURCA",
+        "clave_nacionalidad": "TUR"
+    },
+    {
+        "codigo pais": "337",
+        "pais": "NORVIETNAMITA",
+        "clave_nacionalidad": "VNM"
+    },
+    {
+        "codigo pais": "339",
+        "pais": "YEMENI",
+        "clave_nacionalidad": "YEM"
+    },
+    {
+        "codigo pais": "401",
+        "pais": "ALBANESA",
+        "clave_nacionalidad": "ALB"
+    },
+    {
+        "codigo pais": "403",
+        "pais": "ALEMANA",
+        "clave_nacionalidad": "DEU"
+    },
+    {
+        "codigo pais": "404",
+        "pais": "ANDORRANA",
+        "clave_nacionalidad": "AND"
+    },
+    {
+        "codigo pais": "405",
+        "pais": "AUSTRIACA",
+        "clave_nacionalidad": "AUT"
+    },
+    {
+        "codigo pais": "406",
+        "pais": "BELGA",
+        "clave_nacionalidad": "BEL"
+    },
+    {
+        "codigo pais": "407",
+        "pais": "BULGARA",
+        "clave_nacionalidad": "BGR"
+    },
+    {
+        "codigo pais": "408",
+        "pais": "CHECOSLOVACA",
+        "clave_nacionalidad": "CSK"
+    },
+    {
+        "codigo pais": "409",
+        "pais": "DANESA",
+        "clave_nacionalidad": "DNK"
+    },
+    {
+        "codigo pais": "410",
+        "pais": "VATICANA",
+        "clave_nacionalidad": "VAT"
+    },
+    {
+        "codigo pais": "411",
+        "pais": "ESPAÑOLA",
+        "clave_nacionalidad": "ESP"
+    },
+    {
+        "codigo pais": "412",
+        "pais": "FINLANDESA",
+        "clave_nacionalidad": "FIN"
+    },
+    {
+        "codigo pais": "413",
+        "pais": "FRANCESA",
+        "clave_nacionalidad": "FRA"
+    },
+    {
+        "codigo pais": "414",
+        "pais": "GRIEGA",
+        "clave_nacionalidad": "GRC"
+    },
+    {
+        "codigo pais": "415",
+        "pais": "HUNGARA",
+        "clave_nacionalidad": "HUN"
+    },
+    {
+        "codigo pais": "416",
+        "pais": "IRLANDESA",
+        "clave_nacionalidad": "IRL"
+    },
+    {
+        "codigo pais": "417",
+        "pais": "ISLANDESA",
+        "clave_nacionalidad": "ISL"
+    },
+    {
+        "codigo pais": "418",
+        "pais": "ITALIANA",
+        "clave_nacionalidad": "ITA"
+    },
+    {
+        "codigo pais": "419",
+        "pais": "LIECHTENSTENSE",
+        "clave_nacionalidad": "LIE"
+    },
+    {
+        "codigo pais": "420",
+        "pais": "LUXEMBURGUESA",
+        "clave_nacionalidad": "LUX"
+    },
+    {
+        "codigo pais": "421",
+        "pais": "MALTESA",
+        "clave_nacionalidad": "MLT"
+    },
+    {
+        "codigo pais": "422",
+        "pais": "MONEGASCA",
+        "clave_nacionalidad": "MCO"
+    },
+    {
+        "codigo pais": "423",
+        "pais": "NORUEGA",
+        "clave_nacionalidad": "NOR"
+    },
+    {
+        "codigo pais": "424",
+        "pais": "HOLANDESA",
+        "clave_nacionalidad": "NLD"
+    },
+    {
+        "codigo pais": "426",
+        "pais": "PORTUGUESA",
+        "clave_nacionalidad": "PRT"
+    },
+    {
+        "codigo pais": "427",
+        "pais": "BRITANICA",
+        "clave_nacionalidad": "IOT"
+    },
+    {
+        "codigo pais": "428",
+        "pais": "SOVIETICA BIELORRUSA",
+        "clave_nacionalidad": "BLR"
+    },
+    {
+        "codigo pais": "429",
+        "pais": "SOVIETICA UCRANIANA",
+        "clave_nacionalidad": "UKR"
+    },
+    {
+        "codigo pais": "430",
+        "pais": "RUMANA",
+        "clave_nacionalidad": "ROM"
+    },
+    {
+        "codigo pais": "431",
+        "pais": "SAN MARINENSE",
+        "clave_nacionalidad": "SMR"
+    },
+    {
+        "codigo pais": "432",
+        "pais": "SUECA",
+        "clave_nacionalidad": "SWE"
+    },
+    {
+        "codigo pais": "433",
+        "pais": "SUIZA",
+        "clave_nacionalidad": "CHE"
+    },
+    {
+        "codigo pais": "435",
+        "pais": "YUGOSLAVA",
+        "clave_nacionalidad": "YUG"
+    },
+    {
+        "codigo pais": "501",
+        "pais": "AUSTRALIANA",
+        "clave_nacionalidad": "AUS"
+    },
+    {
+        "codigo pais": "502",
+        "pais": "FIJIANA",
+        "clave_nacionalidad": "FJI"
+    },
+    {
+        "codigo pais": "503",
+        "pais": "SALOMONESA",
+        "clave_nacionalidad": "SLB"
+    },
+    {
+        "codigo pais": "504",
+        "pais": "NAURUANA",
+        "clave_nacionalidad": "NRU"
+    },
+    {
+        "codigo pais": "506",
+        "pais": "PAPUENSE",
+        "clave_nacionalidad": "PNG"
+    },
+    {
+        "codigo pais": "507",
+        "pais": "SAMOANA",
+        "clave_nacionalidad": "WSM"
+    },
+    {
+        "codigo pais": "667",
+        "pais": "ESLOVACA",
+        "clave_nacionalidad": "SVK"
+    },
+    {
+        "codigo pais": "609",
+        "pais": "BURKINA FASO",
+        "clave_nacionalidad": "BFA"
+    },
+    {
+        "codigo pais": "621",
+        "pais": "ESTONIA",
+        "clave_nacionalidad": "EST"
+    },
+    {
+        "codigo pais": "624",
+        "pais": "MICRONECIA",
+        "clave_nacionalidad": "FSM"
+    },
+    {
+        "codigo pais": "625",
+        "pais": "REINO UNIDO(DEPEN. TET. BRIT.)",
+        "clave_nacionalidad": "GBD"
+    },
+    {
+        "codigo pais": "626",
+        "pais": "REINO UNIDO(BRIT. DEL EXT.)",
+        "clave_nacionalidad": "GBN"
+    },
+    {
+        "codigo pais": "627",
+        "pais": "REINO UNIDO(C. BRIT. DEL EXT.)",
+        "clave_nacionalidad": "GBO"
+    },
+    {
+        "codigo pais": "629",
+        "pais": "REINO UNIDO",
+        "clave_nacionalidad": "GBR"
+    },
+    {
+        "codigo pais": "642",
+        "pais": "KIRGUISTAN",
+        "clave_nacionalidad": "KGZ"
+    },
+    {
+        "codigo pais": "645",
+        "pais": "LITUANIA ",
+        "clave_nacionalidad": "LTU"
+    },
+    {
+        "codigo pais": "648",
+        "pais": "MOLDOVIA",
+        "clave_nacionalidad": " REPUBLICA DE"
+    },
+    {
+        "codigo pais": "650",
+        "pais": "MACEDONIA",
+        "clave_nacionalidad": "MKD"
+    },
+    {
+        "codigo pais": "668",
+        "pais": "ESLOVENIA",
+        "clave_nacionalidad": "SVN"
+    },
+    {
+        "codigo pais": "684",
+        "pais": "ESLOVAQUIA",
+        "clave_nacionalidad": "XES"
+    },
+    {
+        "codigo pais": "",
+        "pais": "Nacionalidad No Disponible",
+        "clave_nacionalidad": "NND"
+    }
+]

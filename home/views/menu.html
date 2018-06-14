@@ -21,7 +21,7 @@
 
         <ul>
             <li ng-repeat="secc in secciones">
-                <a ng-click="cambia_vista_seccion(secc)" class="{{secc.estado}}">{{ secc.nombre }}</a>
+                <a ng-click="cambia_vista_seccion(secc.alias)" class="{{secc.estado}}">{{ secc.nombre }}</a>
             </li>
         </ul>
 </header>

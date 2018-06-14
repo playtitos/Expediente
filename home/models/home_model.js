@@ -10,22 +10,6 @@ expediente.config(function ($stateProvider, $urlRouterProvider) {
             name: 'expediente',
             url: '/expediente',
             templateUrl: "../../expediente/views/expediente.html"
-        })/*.state('convenio', {
-            name: 'convenio',
-            url: '/convenio',
-            templateUrl: "../../convenio/views/convenio.html"
-        }).state('reportes', {
-            name: 'reportes',
-            url: '/reportes',
-            templateUrl: "../../reportes/reportes/views/reportes.html"
-        }).state('catalogogeneral', {
-            name: 'catalogogeneral',
-            url: '/catalogogeneral',
-            templateUrl: "../../catalogos/views/catalogos.html"
-        }).state('perfil', {
-            name: 'perfil',
-            url: '/perfil',
-            templateUrl: "../../perfil/views/perfil.html"
-        })*/;
+        });
     $urlRouterProvider.otherwise('/principal');
 });

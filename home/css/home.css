@@ -10,3 +10,17 @@
 .der{
     float: right;
 }
+
+.activo{
+    font-weight: bold;
+    font-size: 16pt;
+    text-decoration: underline;
+    color: white;
+}
+
+.inactivo{
+    font-weight: normal;
+    font-size: 14pt;
+    text-decoration: none;
+    color: grey;
+}
