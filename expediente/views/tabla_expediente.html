@@ -52,6 +52,14 @@
                     </select>
                 </td>
             </tr>
+            <tr>
+                <td class="col-md-6">Nacionalidad</td>
+                <td class="col-md-6">
+                    <select class="form-control" ng-model="nacionalidad" ng-options="nac.id as nac.nombre for nac in nacionalidades">
+                        <option class="no-option" value="">-- Seleccione --</option>
+                    </select>
+                </td>
+            </tr>
         </tbody>
     </table>
 </div>
