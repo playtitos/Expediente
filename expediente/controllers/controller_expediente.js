@@ -9,7 +9,7 @@ secc_expediente.controller("cExpediente", function ($scope) {
     };
 
     var lista_errores = {
-        'rfc': 'El RFC debe contener 3-4 letras, 6 dígitos y 3 letras y/o dígitos',
+        'curp': 'El curp debe contener 4 letras, 6 dígitos, 6 letras y 2 dígitos',
         'nombre': 'json/getMetricaDispositivos',
     };
 
@@ -51,8 +51,9 @@ secc_expediente.controller("cExpediente", function ($scope) {
     $scope.valida_campo = function (campo, valor) {
         var validacion = true;
         switch (campo) {
-            case 'rfc':
-                validacion = $scope.validaRFC(valor);
+            case 'curp':
+                //validacion = $scope.validaRFC(valor);
+                validacion = $scope.validaCURP(valor);
                 break;
 
             default:
