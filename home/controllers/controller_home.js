@@ -73,14 +73,6 @@ expediente.controller("cHome", function ($scope, $http, $state) {
         return rfcRegex.test(rfc);
     };
 
-    $scope.validaLetras = function (texto) {
-        debugger;
-        return $scope.validaDato(texto).replace(/[^a-zA-ZñÑáéíóúÁÉÍÓÚ]/g, '');
-    }
-
-
-
-
     /********* PETICIONES ********/
     $scope.peticionGet = function (url, fnExito) {
         fetch(url).then((resp) => resp.json())

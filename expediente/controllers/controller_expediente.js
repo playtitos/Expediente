@@ -12,17 +12,19 @@ secc_expediente.controller("cExpediente", function ($scope) {
         'rfc': 'El RFC debe contener 3-4 letras, 6 dígitos y 3 letras y/o dígitos',
         'nombre': 'json/getMetricaDispositivos',
     };
-    $scope.error_ = {};
 
     $scope.init_expediente = function () {
         $scope.peticionGet($scope.urlGeneral + 'commons/src/estados.json', $scope.exito_estados);
         $scope.peticionGet($scope.urlGeneral + 'commons/src/nacionalidad.json', $scope.exito_nacionalidad);
+        $scope.peticionGet($scope.urlGeneral + 'commons/src/municipios.json', $scope.exito_municipios);
+        $scope.dis_municipio = true;
+        $scope.dis_est_nac = true;
     };
 
     $scope.exito_estados = function (response) {
         $scope.estados = [];
         for (const index in response) {
-            var obj = { id: response[index].id, nombre: response[index].name, };
+            var obj = { id: response[index].id, nombre: response[index].name.toUpperCase() };
             $scope.estados.push(obj);
         }
         $scope.estados = $scope.filtrar_por($scope.estados, 'nombre', false);
@@ -31,10 +33,19 @@ secc_expediente.controller("cExpediente", function ($scope) {
     $scope.exito_nacionalidad = function (response) {
         $scope.nacionalidades = [];
         for (const index in response) {
-            var obj = { id: response[index].clave_nacionalidad, nombre: response[index].pais, };
+            var obj = { id: response[index].clave_nacionalidad, nombre: response[index].pais.toUpperCase() };
             $scope.nacionalidades.push(obj);
         }
         $scope.nacionalidades = $scope.filtrar_por($scope.nacionalidades, 'nombre', false);
+    };
+
+    $scope.exito_municipios = function (response) {
+        $scope.municipios = [];
+        $scope.lista_municipios = [];
+        for (const index in response) {
+            var obj = { id: response[index].inegi_id, nombre: response[index].nombre.toUpperCase(), id_estado: response[index].id_estado };
+            $scope.municipios.push(obj);
+        }
     };
 
     $scope.valida_campo = function (campo, valor) {
@@ -48,5 +59,19 @@ secc_expediente.controller("cExpediente", function ($scope) {
                 break;
         }
         (!validacion) ? ($scope.muestra_alertas('error', lista_errores[campo])) : ($scope.muestra_alertas('', ''));
+    };
+
+    $scope.filtra_municipio = function (estado) {
+        var municipios = $scope.municipios.filter(function (municipio) {
+            return municipio.id_estado === estado;
+        });
+        municipios = $scope.filtrar_por(municipios, 'nombre', false);
+        $scope.lista_municipios = municipios;
+        $scope.dis_municipio = false;
+    };
+
+    $scope.nac_cambio = function (nac) {
+        $scope.estado_nacimiento = '';
+        (nac == 'MEX') ? $scope.dis_est_nac = false : $scope.dis_est_nac = true;
     };
 });

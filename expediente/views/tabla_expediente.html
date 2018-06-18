@@ -2,23 +2,29 @@
     <table class="table table-hover table-striped table-responsive col-md-12" id="elem-bienvenida">
         <thead>
             <tr class="cab-gris">
-                <th class="col-md-6">Campo</th>
+                <th class="col-md-6">Campo &nbsp; &nbsp;
+                    <span class="asterisco">*</span>requerido
+                </th>
                 <th class="col-md-6">Datos</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td class="col-md-6">CURP</td>
+                <td class="col-md-6">CURP
+                    <span class="asterisco espacio">*</span>
+                </td>
                 <td class="col-md-6">
                     <input id="curp" type="text" class="form-control {{error_rfc}}" ng-model="curp" placeholder="Ingrese curp" maxlength="13"
                         capitalize ng-blur="valida_campo('rfc', curp)">
                 </td>
             </tr>
             <tr>
-                <td class="col-md-6">Primer apellido</td>
+                <td class="col-md-6">Primer apellido
+                    <span class="asterisco espacio">*</span>
+                </td>
                 <td class="col-md-6">
-                    <input type="text" class="form-control" ng-model="apprimero" placeholder="Ingrese primer apellido" maxlength="50" solo-letras
-                        capitalize>
+                    <input id="apprimero" type="text" class="form-control" ng-model="apprimero" placeholder="Ingrese primer apellido" maxlength="50"
+                        solo-letras capitalize>
                 </td>
             </tr>
             <tr>
@@ -29,44 +35,67 @@
                 </td>
             </tr>
             <tr>
-                <td class="col-md-6">Nombre</td>
+                <td class="col-md-6">Nombre
+                    <span class="asterisco espacio">*</span>
+                </td>
                 <td class="col-md-6">
                     <input type="text" class="form-control" ng-model="nombre" placeholder="Ingrese nombre" maxlength="50" capitalize solo-letras>
                 </td>
             </tr>
             <tr>
-                <td class="col-md-6">Fecha nacimiento</td>
+                <td class="col-md-6">Fecha nacimiento
+                    <span class="asterisco espacio">*</span>
+                </td>
                 <td class="col-md-6">
                     <input type="date" class="form-control" ng-model="fecnac">
                 </td>
             </tr>
             <tr>
-                <td class="col-md-6">Sexo</td>
+                <td class="col-md-6">Sexo
+                    <span class="asterisco espacio">*</span>
+                </td>
                 <td class="col-md-6">
                     <input type="radio" ng-model="sexo" value="1" class="espacio">&nbsp;Hombre&nbsp;&nbsp;
                     <input type="radio" ng-model="sexo" value="2" class="espacio">&nbsp;Mujer
                 </td>
             </tr>
             <tr>
-                <td class="col-md-6">Nacionalidad</td>
+                <td class="col-md-6">Nacionalidad
+                    <span class="asterisco espacio">*</span>
+                </td>
                 <td class="col-md-6">
-                    <select class="form-control" ng-model="nacionalidad" ng-options="nac.id as nac.nombre for nac in nacionalidades">
+                    <select class="form-control" ng-model="nacionalidad" ng-options="nac.id as nac.nombre for nac in nacionalidades" ng-change="nac_cambio(nacionalidad)">
                         <option class="no-option" value="">-- Seleccione --</option>
                     </select>
                 </td>
             </tr>
             <tr>
-                <td class="col-md-6">Estado de nacimiento</td>
+                <td class="col-md-6">Estado de nacimiento
+                    <span class="asterisco espacio">*</span>
+                </td>
                 <td class="col-md-6">
-                    <select class="form-control" ng-model="estado_nacimiento" ng-options="estado.id as estado.nombre for estado in estados">
+                    <select class="form-control" ng-model="estado_nacimiento" ng-options="estado.id as estado.nombre for estado in estados" ng-disabled="dis_est_nac">
                         <option class="no-option" value="">-- Seleccione --</option>
                     </select>
                 </td>
             </tr>
             <tr>
-                <td class="col-md-6">Estado de residencia</td>
+                <td class="col-md-6">Estado de residencia
+                    <span class="asterisco espacio">*</span>
+                </td>
                 <td class="col-md-6">
-                    <select class="form-control" ng-model="estado_residencia" ng-options="estado.id as estado.nombre for estado in estados">
+                    <select class="form-control" ng-model="estado_residencia" ng-options="estado.id as estado.nombre for estado in estados" ng-change="filtra_municipio(estado_residencia)">
+                        <option class="no-option" value="">-- Seleccione --</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-6">Municipio
+                    <span class="asterisco espacio">*</span>
+                </td>
+                <td class="col-md-6">
+                    <select class="form-control" ng-model="municipio" ng-options="muni.inegi_id as muni.nombre for muni in lista_municipios"
+                        ng-disabled="dis_municipio">
                         <option class="no-option" value="">-- Seleccione --</option>
                     </select>
                 </td>
