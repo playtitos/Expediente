@@ -10,25 +10,28 @@
             <tr>
                 <td class="col-md-6">CURP</td>
                 <td class="col-md-6">
-                    <input type="text" class="form-control" ng-model="curp" placeholder="Ingrese curp" maxlength="18" capitalize>
+                    <input id="curp" type="text" class="form-control {{error_rfc}}" ng-model="curp" placeholder="Ingrese curp" maxlength="13"
+                        capitalize ng-blur="valida_campo('rfc', curp)">
                 </td>
             </tr>
             <tr>
                 <td class="col-md-6">Primer apellido</td>
                 <td class="col-md-6">
-                    <input type="text" class="form-control" ng-model="apprimero" placeholder="Ingrese primer apellido" maxlength="50" capitalize>
+                    <input type="text" class="form-control" ng-model="apprimero" placeholder="Ingrese primer apellido" maxlength="50" solo-letras
+                        capitalize>
                 </td>
             </tr>
             <tr>
                 <td class="col-md-6">Segundo apellido</td>
                 <td class="col-md-6">
-                    <input type="text" class="form-control" ng-model="apsegundo" placeholder="Ingrese segundo apellido" maxlength="50" capitalize>
+                    <input type="text" class="form-control" ng-model="apsegundo" placeholder="Ingrese segundo apellido" maxlength="50" capitalize
+                        solo-letras>
                 </td>
             </tr>
             <tr>
                 <td class="col-md-6">Nombre</td>
                 <td class="col-md-6">
-                    <input type="text" class="form-control" ng-model="nombre" placeholder="Ingrese nombre" maxlength="50" capitalize>
+                    <input type="text" class="form-control" ng-model="nombre" placeholder="Ingrese nombre" maxlength="50" capitalize solo-letras>
                 </td>
             </tr>
             <tr>
@@ -45,6 +48,14 @@
                 </td>
             </tr>
             <tr>
+                <td class="col-md-6">Nacionalidad</td>
+                <td class="col-md-6">
+                    <select class="form-control" ng-model="nacionalidad" ng-options="nac.id as nac.nombre for nac in nacionalidades">
+                        <option class="no-option" value="">-- Seleccione --</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
                 <td class="col-md-6">Estado de nacimiento</td>
                 <td class="col-md-6">
                     <select class="form-control" ng-model="estado_nacimiento" ng-options="estado.id as estado.nombre for estado in estados">
@@ -53,9 +64,9 @@
                 </td>
             </tr>
             <tr>
-                <td class="col-md-6">Nacionalidad</td>
+                <td class="col-md-6">Estado de residencia</td>
                 <td class="col-md-6">
-                    <select class="form-control" ng-model="nacionalidad" ng-options="nac.id as nac.nombre for nac in nacionalidades">
+                    <select class="form-control" ng-model="estado_residencia" ng-options="estado.id as estado.nombre for estado in estados">
                         <option class="no-option" value="">-- Seleccione --</option>
                     </select>
                 </td>

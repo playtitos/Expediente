@@ -59,3 +59,19 @@
     box-sizing: border-box;
     padding-right: 5px;
 }
+
+.cursor{
+    cursor: pointer;
+}
+
+.alertas-div{
+    height: 50px;
+    width: 70%;
+    position: fixed;
+    z-index: 99999999;
+    margin: 0 15% 0 15%;
+}
+
+.error{
+    border: 1px solid red;
+}

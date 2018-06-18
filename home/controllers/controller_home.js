@@ -8,6 +8,7 @@ expediente.controller("cHome", function ($scope, $http, $state) {
     };
 
     $scope.crea_menu = function () {
+        $scope.muestra_alertas('', '');
         $scope.secciones = [
             { estado: 'inactivo', nombre: 'Principal', alias: 'principal' },
             { estado: 'inactivo', nombre: 'Expediente', alias: 'expediente' },
@@ -20,6 +21,25 @@ expediente.controller("cHome", function ($scope, $http, $state) {
             ($scope.secciones[index].alias !== secc) ? $scope.secciones[index].estado = 'inactivo' : $scope.secciones[index].estado = 'activo';
         }
         $state.go(secc, { reload: true });
+    };
+
+    $scope.muestra_alertas = function (tipo, texto) {
+        $scope.alerta_error = false;
+        $scope.alerta_exito = false;
+        $scope.mensaje_error = "";
+        $scope.mensaje_exito = "";
+        switch (tipo) {
+            case 'exito':
+                $scope.alerta_exito = true;
+                $scope.mensaje_exito = texto;
+                break;
+            case 'error':
+                $scope.alerta_error = true;
+                $scope.mensaje_error = texto;
+                break;
+            case '':
+                break;
+        }
     };
 
     window.onhashchange = function () {
@@ -47,6 +67,18 @@ expediente.controller("cHome", function ($scope, $http, $state) {
     $scope.validaDato = function (dato) {
         return dato === null || dato === undefined || dato === "null" ? '' : dato;
     };
+
+    $scope.validaRFC = function (rfc) {
+        var rfcRegex = /^[A-Za-zñÑ]{3,4}[0-9]{2}(0[1-9]{1}|1[0-2]{1})(0[1-9]{1}|[1-2]{1}[0-9]{1}|3[0-1]{1})[A-Za-z0-9]{0,3}$/;
+        return rfcRegex.test(rfc);
+    };
+
+    $scope.validaLetras = function (texto) {
+        debugger;
+        return $scope.validaDato(texto).replace(/[^a-zA-ZñÑáéíóúÁÉÍÓÚ]/g, '');
+    }
+
+
 
 
     /********* PETICIONES ********/

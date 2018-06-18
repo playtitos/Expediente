@@ -2,6 +2,16 @@
 <html ng-app="expediente">
 
 <head>
+    <meta charset="utf-8">
+    <title>Proyecto Expediente</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
     <link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css"
     />
     <link href="https://fonts.googleapis.com/css?family=David+Libre|Hind:400,700" rel="stylesheet">
@@ -12,6 +22,7 @@
 
 <body>
     <div ng-controller="cHome" class="contenedor" ng-init="init_app_expedinete()">
+        <dir-alertas class="completo izq"></dir-alertas>
         <dir-menu></dir-menu>
         <div ui-view class="ng-view-content cont-secc"></div>
     </div>

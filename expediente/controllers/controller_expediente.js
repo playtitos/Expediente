@@ -8,6 +8,12 @@ secc_expediente.controller("cExpediente", function ($scope) {
         }
     };
 
+    var lista_errores = {
+        'rfc': 'El RFC debe contener 3-4 letras, 6 dígitos y 3 letras y/o dígitos',
+        'nombre': 'json/getMetricaDispositivos',
+    };
+    $scope.error_ = {};
+
     $scope.init_expediente = function () {
         $scope.peticionGet($scope.urlGeneral + 'commons/src/estados.json', $scope.exito_estados);
         $scope.peticionGet($scope.urlGeneral + 'commons/src/nacionalidad.json', $scope.exito_nacionalidad);
@@ -29,5 +35,18 @@ secc_expediente.controller("cExpediente", function ($scope) {
             $scope.nacionalidades.push(obj);
         }
         $scope.nacionalidades = $scope.filtrar_por($scope.nacionalidades, 'nombre', false);
+    };
+
+    $scope.valida_campo = function (campo, valor) {
+        var validacion = true;
+        switch (campo) {
+            case 'rfc':
+                validacion = $scope.validaRFC(valor);
+                break;
+
+            default:
+                break;
+        }
+        (!validacion) ? ($scope.muestra_alertas('error', lista_errores[campo])) : ($scope.muestra_alertas('', ''));
     };
 });

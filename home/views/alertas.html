@@ -1,0 +1,16 @@
+<div class="izq alertas-div">
+    <div class="alert alert-danger" role="alert" ng-show="alerta_error">
+        <label class="completo" style="text-align: center;">
+            <span class="glyphicon glyphicon-exclamation-sign espacio" aria-hidden="true"></span>
+            {{mensaje_error}}
+            <span class="glyphicon glyphicon-remove espacio cursor der" ng-click="muestra_alertas('', '')"></span>
+        </label>
+    </div>
+    <div class="alert alert-success" role="alert" ng-show="alerta_exito">
+        <label class="completo" style="text-align: center;">
+            <span class="glyphicon glyphicon-ok espacio" aria-hidden="true"></span>
+            {{mensaje_exito}}
+            <span class="glyphicon glyphicon-remove espacio cursor der" ng-click="muestra_alertas('', '')"></span>
+        </label>
+    </div>
+</div>
