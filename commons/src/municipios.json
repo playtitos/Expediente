@@ -42,13 +42,13 @@
         "nombre": "Rincón de Romos"
     },
     {
-        "inegi_id": 1008.0,
+        "inegi_id": 1008,
         "id": 8,
         "id_estado": 1,
         "nombre": "San José de Gracia"
     },
     {
-        "inegi_id": 1009.0,
+        "inegi_id": 1009,
         "id": 9,
         "id_estado": 1,
         "nombre": "Tepezalá"
@@ -114,13 +114,13 @@
         "nombre": "La Paz"
     },
     {
-        "inegi_id": 3008.0,
+        "inegi_id": 3008,
         "id": 8,
         "id_estado": 3,
         "nombre": "Los Cabos"
     },
     {
-        "inegi_id": 3009.0,
+        "inegi_id": 3009,
         "id": 9,
         "id_estado": 3,
         "nombre": "Loreto"
@@ -168,13 +168,13 @@
         "nombre": "Palizada"
     },
     {
-        "inegi_id": 4008.0,
+        "inegi_id": 4008,
         "id": 8,
         "id_estado": 4,
         "nombre": "Tenabo"
     },
     {
-        "inegi_id": 4009.0,
+        "inegi_id": 4009,
         "id": 9,
         "id_estado": 4,
         "nombre": "Escárcega"
@@ -234,13 +234,13 @@
         "nombre": "Cuatro Ciénegas"
     },
     {
-        "inegi_id": 5008.0,
+        "inegi_id": 5008,
         "id": 8,
         "id_estado": 5,
         "nombre": "Escobedo"
     },
     {
-        "inegi_id": 5009.0,
+        "inegi_id": 5009,
         "id": 9,
         "id_estado": 5,
         "nombre": "Francisco I. Madero"
@@ -294,13 +294,13 @@
         "nombre": "Matamoros"
     },
     {
-        "inegi_id": 5018.0,
+        "inegi_id": 5018,
         "id": 18,
         "id_estado": 5,
         "nombre": "Monclova"
     },
     {
-        "inegi_id": 5019.0,
+        "inegi_id": 5019,
         "id": 19,
         "id_estado": 5,
         "nombre": "Morelos"
@@ -354,13 +354,13 @@
         "nombre": "Ramos Arizpe"
     },
     {
-        "inegi_id": 5028.0,
+        "inegi_id": 5028,
         "id": 28,
         "id_estado": 5,
         "nombre": "Sabinas"
     },
     {
-        "inegi_id": 5029.0,
+        "inegi_id": 5029,
         "id": 29,
         "id_estado": 5,
         "nombre": "Sacramento"
@@ -414,7 +414,7 @@
         "nombre": "Villa Unión"
     },
     {
-        "inegi_id": 5038.0,
+        "inegi_id": 5038,
         "id": 38,
         "id_estado": 5,
         "nombre": "Zaragoza"
@@ -462,13 +462,13 @@
         "nombre": "Manzanillo"
     },
     {
-        "inegi_id": 6008.0,
+        "inegi_id": 6008,
         "id": 8,
         "id_estado": 6,
         "nombre": "Minatitlán"
     },
     {
-        "inegi_id": 6009.0,
+        "inegi_id": 6009,
         "id": 9,
         "id_estado": 6,
         "nombre": "Tecomán"
@@ -522,13 +522,13 @@
         "nombre": "Amatenango del Valle"
     },
     {
-        "inegi_id": 7008.0,
+        "inegi_id": 7008,
         "id": 8,
         "id_estado": 7,
         "nombre": "Angel Albino Corzo"
     },
     {
-        "inegi_id": 7009.0,
+        "inegi_id": 7009,
         "id": 9,
         "id_estado": 7,
         "nombre": "Arriaga"
@@ -582,13 +582,13 @@
         "nombre": "Cintalapa"
     },
     {
-        "inegi_id": 7018.0,
+        "inegi_id": 7018,
         "id": 18,
         "id_estado": 7,
         "nombre": "Coapilla"
     },
     {
-        "inegi_id": 7019.0,
+        "inegi_id": 7019,
         "id": 19,
         "id_estado": 7,
         "nombre": "Comitán de Domínguez"
@@ -642,13 +642,13 @@
         "nombre": "Chiapa de Corzo"
     },
     {
-        "inegi_id": 7028.0,
+        "inegi_id": 7028,
         "id": 28,
         "id_estado": 7,
         "nombre": "Chiapilla"
     },
     {
-        "inegi_id": 7029.0,
+        "inegi_id": 7029,
         "id": 29,
         "id_estado": 7,
         "nombre": "Chicoasén"
@@ -702,13 +702,13 @@
         "nombre": "Huehuetán"
     },
     {
-        "inegi_id": 7038.0,
+        "inegi_id": 7038,
         "id": 38,
         "id_estado": 7,
         "nombre": "Huixtán"
     },
     {
-        "inegi_id": 7039.0,
+        "inegi_id": 7039,
         "id": 39,
         "id_estado": 7,
         "nombre": "Huitiupán"
@@ -762,13 +762,13 @@
         "nombre": "Jitotol"
     },
     {
-        "inegi_id": 7048.0,
+        "inegi_id": 7048,
         "id": 48,
         "id_estado": 7,
         "nombre": "Juárez"
     },
     {
-        "inegi_id": 7049.0,
+        "inegi_id": 7049,
         "id": 49,
         "id_estado": 7,
         "nombre": "Larráinzar"
@@ -822,13 +822,13 @@
         "nombre": "Motozintla"
     },
     {
-        "inegi_id": 7058.0,
+        "inegi_id": 7058,
         "id": 58,
         "id_estado": 7,
         "nombre": "Nicolás Ruíz"
     },
     {
-        "inegi_id": 7059.0,
+        "inegi_id": 7059,
         "id": 59,
         "id_estado": 7,
         "nombre": "Ocosingo"
@@ -882,13 +882,13 @@
         "nombre": "Pantepec"
     },
     {
-        "inegi_id": 7068.0,
+        "inegi_id": 7068,
         "id": 68,
         "id_estado": 7,
         "nombre": "Pichucalco"
     },
     {
-        "inegi_id": 7069.0,
+        "inegi_id": 7069,
         "id": 69,
         "id_estado": 7,
         "nombre": "Pijijiapan"
@@ -942,127 +942,127 @@
         "nombre": "Salto de Agua"
     },
     {
-        "inegi_id": 7078.0,
+        "inegi_id": 7078,
         "id": 78,
         "id_estado": 7,
         "nombre": "San Cristóbal de las Casas"
     },
     {
-        "inegi_id": 7079.0,
+        "inegi_id": 7079,
         "id": 79,
         "id_estado": 7,
         "nombre": "San Fernando"
     },
     {
-        "inegi_id": 7080.0,
+        "inegi_id": 7080,
         "id": 80,
         "id_estado": 7,
         "nombre": "Siltepec"
     },
     {
-        "inegi_id": 7081.0,
+        "inegi_id": 7081,
         "id": 81,
         "id_estado": 7,
         "nombre": "Simojovel"
     },
     {
-        "inegi_id": 7082.0,
+        "inegi_id": 7082,
         "id": 82,
         "id_estado": 7,
         "nombre": "Sitalá"
     },
     {
-        "inegi_id": 7083.0,
+        "inegi_id": 7083,
         "id": 83,
         "id_estado": 7,
         "nombre": "Socoltenango"
     },
     {
-        "inegi_id": 7084.0,
+        "inegi_id": 7084,
         "id": 84,
         "id_estado": 7,
         "nombre": "Solosuchiapa"
     },
     {
-        "inegi_id": 7085.0,
+        "inegi_id": 7085,
         "id": 85,
         "id_estado": 7,
         "nombre": "Soyaló"
     },
     {
-        "inegi_id": 7086.0,
+        "inegi_id": 7086,
         "id": 86,
         "id_estado": 7,
         "nombre": "Suchiapa"
     },
     {
-        "inegi_id": 7087.0,
+        "inegi_id": 7087,
         "id": 87,
         "id_estado": 7,
         "nombre": "Suchiate"
     },
     {
-        "inegi_id": 7088.0,
+        "inegi_id": 7088,
         "id": 88,
         "id_estado": 7,
         "nombre": "Sunuapa"
     },
     {
-        "inegi_id": 7089.0,
+        "inegi_id": 7089,
         "id": 89,
         "id_estado": 7,
         "nombre": "Tapachula"
     },
     {
-        "inegi_id": 7090.0,
+        "inegi_id": 7090,
         "id": 90,
         "id_estado": 7,
         "nombre": "Tapalapa"
     },
     {
-        "inegi_id": 7091.0,
+        "inegi_id": 7091,
         "id": 91,
         "id_estado": 7,
         "nombre": "Tapilula"
     },
     {
-        "inegi_id": 7092.0,
+        "inegi_id": 7092,
         "id": 92,
         "id_estado": 7,
         "nombre": "Tecpatán"
     },
     {
-        "inegi_id": 7093.0,
+        "inegi_id": 7093,
         "id": 93,
         "id_estado": 7,
         "nombre": "Tenejapa"
     },
     {
-        "inegi_id": 7094.0,
+        "inegi_id": 7094,
         "id": 94,
         "id_estado": 7,
         "nombre": "Teopisca"
     },
     {
-        "inegi_id": 7096.0,
+        "inegi_id": 7096,
         "id": 96,
         "id_estado": 7,
         "nombre": "Tila"
     },
     {
-        "inegi_id": 7097.0,
+        "inegi_id": 7097,
         "id": 97,
         "id_estado": 7,
         "nombre": "Tonalá"
     },
     {
-        "inegi_id": 7098.0,
+        "inegi_id": 7098,
         "id": 98,
         "id_estado": 7,
         "nombre": "Totolapa"
     },
     {
-        "inegi_id": 7099.0,
+        "inegi_id": 7099,
         "id": 99,
         "id_estado": 7,
         "nombre": "La Trinitaria"
@@ -1116,13 +1116,13 @@
         "nombre": "Villa Corzo"
     },
     {
-        "inegi_id": 7108.0,
+        "inegi_id": 7108,
         "id": 108,
         "id_estado": 7,
         "nombre": "Villaflores"
     },
     {
-        "inegi_id": 7109.0,
+        "inegi_id": 7109,
         "id": 109,
         "id_estado": 7,
         "nombre": "Yajalón"
@@ -1176,511 +1176,511 @@
         "nombre": "Montecristo de Guerrero"
     },
     {
-        "inegi_id": 7118.0,
+        "inegi_id": 7118,
         "id": 118,
         "id_estado": 7,
         "nombre": "San Andrés Duraznal"
     },
     {
-        "inegi_id": 7119.0,
+        "inegi_id": 7119,
         "id": 119,
         "id_estado": 7,
         "nombre": "Santiago el Pinar"
     },
     {
-        "inegi_id": 8001.0,
+        "inegi_id": 8001,
         "id": 1,
         "id_estado": 8,
         "nombre": "Ahumada"
     },
     {
-        "inegi_id": 8002.0,
+        "inegi_id": 8002,
         "id": 2,
         "id_estado": 8,
         "nombre": "Aldama"
     },
     {
-        "inegi_id": 8003.0,
+        "inegi_id": 8003,
         "id": 3,
         "id_estado": 8,
         "nombre": "Allende"
     },
     {
-        "inegi_id": 8004.0,
+        "inegi_id": 8004,
         "id": 4,
         "id_estado": 8,
         "nombre": "Aquiles Serdán"
     },
     {
-        "inegi_id": 8005.0,
+        "inegi_id": 8005,
         "id": 5,
         "id_estado": 8,
         "nombre": "Ascensión"
     },
     {
-        "inegi_id": 8006.0,
+        "inegi_id": 8006,
         "id": 6,
         "id_estado": 8,
         "nombre": "Bachíniva"
     },
     {
-        "inegi_id": 8007.0,
+        "inegi_id": 8007,
         "id": 7,
         "id_estado": 8,
         "nombre": "Balleza"
     },
     {
-        "inegi_id": 8008.0,
+        "inegi_id": 8008,
         "id": 8,
         "id_estado": 8,
         "nombre": "Batopilas"
     },
     {
-        "inegi_id": 8009.0,
+        "inegi_id": 8009,
         "id": 9,
         "id_estado": 8,
         "nombre": "Bocoyna"
     },
     {
-        "inegi_id": 8010.0,
+        "inegi_id": 8010,
         "id": 10,
         "id_estado": 8,
         "nombre": "Buenaventura"
     },
     {
-        "inegi_id": 8011.0,
+        "inegi_id": 8011,
         "id": 11,
         "id_estado": 8,
         "nombre": "Camargo"
     },
     {
-        "inegi_id": 8012.0,
+        "inegi_id": 8012,
         "id": 12,
         "id_estado": 8,
         "nombre": "Carichí"
     },
     {
-        "inegi_id": 8013.0,
+        "inegi_id": 8013,
         "id": 13,
         "id_estado": 8,
         "nombre": "Casas Grandes"
     },
     {
-        "inegi_id": 8014.0,
+        "inegi_id": 8014,
         "id": 14,
         "id_estado": 8,
         "nombre": "Coronado"
     },
     {
-        "inegi_id": 8015.0,
+        "inegi_id": 8015,
         "id": 15,
         "id_estado": 8,
         "nombre": "Coyame del Sotol"
     },
     {
-        "inegi_id": 8016.0,
+        "inegi_id": 8016,
         "id": 16,
         "id_estado": 8,
         "nombre": "La Cruz"
     },
     {
-        "inegi_id": 8017.0,
+        "inegi_id": 8017,
         "id": 17,
         "id_estado": 8,
         "nombre": "Cuauhtémoc"
     },
     {
-        "inegi_id": 8018.0,
+        "inegi_id": 8018,
         "id": 18,
         "id_estado": 8,
         "nombre": "Cusihuiriachi"
     },
     {
-        "inegi_id": 8019.0,
+        "inegi_id": 8019,
         "id": 19,
         "id_estado": 8,
         "nombre": "Chihuahua"
     },
     {
-        "inegi_id": 8020.0,
+        "inegi_id": 8020,
         "id": 20,
         "id_estado": 8,
         "nombre": "Chínipas"
     },
     {
-        "inegi_id": 8021.0,
+        "inegi_id": 8021,
         "id": 21,
         "id_estado": 8,
         "nombre": "Delicias"
     },
     {
-        "inegi_id": 8022.0,
+        "inegi_id": 8022,
         "id": 22,
         "id_estado": 8,
         "nombre": "Dr. Belisario Domínguez"
     },
     {
-        "inegi_id": 8023.0,
+        "inegi_id": 8023,
         "id": 23,
         "id_estado": 8,
         "nombre": "Galeana"
     },
     {
-        "inegi_id": 8024.0,
+        "inegi_id": 8024,
         "id": 24,
         "id_estado": 8,
         "nombre": "Santa Isabel"
     },
     {
-        "inegi_id": 8025.0,
+        "inegi_id": 8025,
         "id": 25,
         "id_estado": 8,
         "nombre": "Gómez Farías"
     },
     {
-        "inegi_id": 8026.0,
+        "inegi_id": 8026,
         "id": 26,
         "id_estado": 8,
         "nombre": "Gran Morelos"
     },
     {
-        "inegi_id": 8027.0,
+        "inegi_id": 8027,
         "id": 27,
         "id_estado": 8,
         "nombre": "Guachochi"
     },
     {
-        "inegi_id": 8028.0,
+        "inegi_id": 8028,
         "id": 28,
         "id_estado": 8,
         "nombre": "Guadalupe"
     },
     {
-        "inegi_id": 8029.0,
+        "inegi_id": 8029,
         "id": 29,
         "id_estado": 8,
         "nombre": "Guadalupe y Calvo"
     },
     {
-        "inegi_id": 8030.0,
+        "inegi_id": 8030,
         "id": 30,
         "id_estado": 8,
         "nombre": "Guazapares"
     },
     {
-        "inegi_id": 8031.0,
+        "inegi_id": 8031,
         "id": 31,
         "id_estado": 8,
         "nombre": "Guerrero"
     },
     {
-        "inegi_id": 8032.0,
+        "inegi_id": 8032,
         "id": 32,
         "id_estado": 8,
         "nombre": "Hidalgo del Parral"
     },
     {
-        "inegi_id": 8033.0,
+        "inegi_id": 8033,
         "id": 33,
         "id_estado": 8,
         "nombre": "Huejotitán"
     },
     {
-        "inegi_id": 8034.0,
+        "inegi_id": 8034,
         "id": 34,
         "id_estado": 8,
         "nombre": "Ignacio Zaragoza"
     },
     {
-        "inegi_id": 8035.0,
+        "inegi_id": 8035,
         "id": 35,
         "id_estado": 8,
         "nombre": "Janos"
     },
     {
-        "inegi_id": 8036.0,
+        "inegi_id": 8036,
         "id": 36,
         "id_estado": 8,
         "nombre": "Jiménez"
     },
     {
-        "inegi_id": 8037.0,
+        "inegi_id": 8037,
         "id": 37,
         "id_estado": 8,
         "nombre": "Juárez"
     },
     {
-        "inegi_id": 8038.0,
+        "inegi_id": 8038,
         "id": 38,
         "id_estado": 8,
         "nombre": "Julimes"
     },
     {
-        "inegi_id": 8039.0,
+        "inegi_id": 8039,
         "id": 39,
         "id_estado": 8,
         "nombre": "López"
     },
     {
-        "inegi_id": 8040.0,
+        "inegi_id": 8040,
         "id": 40,
         "id_estado": 8,
         "nombre": "Madera"
     },
     {
-        "inegi_id": 8041.0,
+        "inegi_id": 8041,
         "id": 41,
         "id_estado": 8,
         "nombre": "Maguarichi"
     },
     {
-        "inegi_id": 8042.0,
+        "inegi_id": 8042,
         "id": 42,
         "id_estado": 8,
         "nombre": "Manuel Benavides"
     },
     {
-        "inegi_id": 8043.0,
+        "inegi_id": 8043,
         "id": 43,
         "id_estado": 8,
         "nombre": "Matachí"
     },
     {
-        "inegi_id": 8044.0,
+        "inegi_id": 8044,
         "id": 44,
         "id_estado": 8,
         "nombre": "Matamoros"
     },
     {
-        "inegi_id": 8045.0,
+        "inegi_id": 8045,
         "id": 45,
         "id_estado": 8,
         "nombre": "Meoqui"
     },
     {
-        "inegi_id": 8046.0,
+        "inegi_id": 8046,
         "id": 46,
         "id_estado": 8,
         "nombre": "Morelos"
     },
     {
-        "inegi_id": 8047.0,
+        "inegi_id": 8047,
         "id": 47,
         "id_estado": 8,
         "nombre": "Moris"
     },
     {
-        "inegi_id": 8048.0,
+        "inegi_id": 8048,
         "id": 48,
         "id_estado": 8,
         "nombre": "Namiquipa"
     },
     {
-        "inegi_id": 8049.0,
+        "inegi_id": 8049,
         "id": 49,
         "id_estado": 8,
         "nombre": "Nonoava"
     },
     {
-        "inegi_id": 8050.0,
+        "inegi_id": 8050,
         "id": 50,
         "id_estado": 8,
         "nombre": "Nuevo Casas Grandes"
     },
     {
-        "inegi_id": 8051.0,
+        "inegi_id": 8051,
         "id": 51,
         "id_estado": 8,
         "nombre": "Ocampo"
     },
     {
-        "inegi_id": 8052.0,
+        "inegi_id": 8052,
         "id": 52,
         "id_estado": 8,
         "nombre": "Ojinaga"
     },
     {
-        "inegi_id": 8053.0,
+        "inegi_id": 8053,
         "id": 53,
         "id_estado": 8,
         "nombre": "Praxedis G. Guerrero"
     },
     {
-        "inegi_id": 8054.0,
+        "inegi_id": 8054,
         "id": 54,
         "id_estado": 8,
         "nombre": "Riva Palacio"
     },
     {
-        "inegi_id": 8055.0,
+        "inegi_id": 8055,
         "id": 55,
         "id_estado": 8,
         "nombre": "Rosales"
     },
     {
-        "inegi_id": 8056.0,
+        "inegi_id": 8056,
         "id": 56,
         "id_estado": 8,
         "nombre": "Rosario"
     },
     {
-        "inegi_id": 8057.0,
+        "inegi_id": 8057,
         "id": 57,
         "id_estado": 8,
         "nombre": "San Francisco de Borja"
     },
     {
-        "inegi_id": 8058.0,
+        "inegi_id": 8058,
         "id": 58,
         "id_estado": 8,
         "nombre": "San Francisco de Conchos"
     },
     {
-        "inegi_id": 8059.0,
+        "inegi_id": 8059,
         "id": 59,
         "id_estado": 8,
         "nombre": "San Francisco del Oro"
     },
     {
-        "inegi_id": 8060.0,
+        "inegi_id": 8060,
         "id": 60,
         "id_estado": 8,
         "nombre": "Santa Bárbara"
     },
     {
-        "inegi_id": 8061.0,
+        "inegi_id": 8061,
         "id": 61,
         "id_estado": 8,
         "nombre": "Satevó"
     },
     {
-        "inegi_id": 8062.0,
+        "inegi_id": 8062,
         "id": 62,
         "id_estado": 8,
         "nombre": "Saucillo"
     },
     {
-        "inegi_id": 8063.0,
+        "inegi_id": 8063,
         "id": 63,
         "id_estado": 8,
         "nombre": "Temósachi"
     },
     {
-        "inegi_id": 8064.0,
+        "inegi_id": 8064,
         "id": 64,
         "id_estado": 8,
         "nombre": "El Tule"
     },
     {
-        "inegi_id": 8065.0,
+        "inegi_id": 8065,
         "id": 65,
         "id_estado": 8,
         "nombre": "Urique"
     },
     {
-        "inegi_id": 8066.0,
+        "inegi_id": 8066,
         "id": 66,
         "id_estado": 8,
         "nombre": "Uruachi"
     },
     {
-        "inegi_id": 8067.0,
+        "inegi_id": 8067,
         "id": 67,
         "id_estado": 8,
         "nombre": "Valle de Zaragoza"
     },
     {
-        "inegi_id": 9002.0,
+        "inegi_id": 9002,
         "id": 2,
         "id_estado": 9,
         "nombre": "Azcapotzalco"
     },
     {
-        "inegi_id": 9003.0,
+        "inegi_id": 9003,
         "id": 3,
         "id_estado": 9,
         "nombre": "Coyoacán"
     },
     {
-        "inegi_id": 9004.0,
+        "inegi_id": 9004,
         "id": 4,
         "id_estado": 9,
         "nombre": "Cuajimalpa de Morelos"
     },
     {
-        "inegi_id": 9005.0,
+        "inegi_id": 9005,
         "id": 5,
         "id_estado": 9,
         "nombre": "Gustavo A. Madero"
     },
     {
-        "inegi_id": 9006.0,
+        "inegi_id": 9006,
         "id": 6,
         "id_estado": 9,
         "nombre": "Iztacalco"
     },
     {
-        "inegi_id": 9007.0,
+        "inegi_id": 9007,
         "id": 7,
         "id_estado": 9,
         "nombre": "Iztapalapa"
     },
     {
-        "inegi_id": 9008.0,
+        "inegi_id": 9008,
         "id": 8,
         "id_estado": 9,
         "nombre": "La Magdalena Contreras"
     },
     {
-        "inegi_id": 9009.0,
+        "inegi_id": 9009,
         "id": 9,
         "id_estado": 9,
         "nombre": "Milpa Alta"
     },
     {
-        "inegi_id": 9010.0,
+        "inegi_id": 9010,
         "id": 10,
         "id_estado": 9,
         "nombre": "Álvaro Obregón"
     },
     {
-        "inegi_id": 9011.0,
+        "inegi_id": 9011,
         "id": 11,
         "id_estado": 9,
         "nombre": "Tláhuac"
     },
     {
-        "inegi_id": 9012.0,
+        "inegi_id": 9012,
         "id": 12,
         "id_estado": 9,
         "nombre": "Tlalpan"
     },
     {
-        "inegi_id": 9013.0,
+        "inegi_id": 9013,
         "id": 13,
         "id_estado": 9,
         "nombre": "Xochimilco"
     },
     {
-        "inegi_id": 9014.0,
+        "inegi_id": 9014,
         "id": 14,
         "id_estado": 9,
         "nombre": "Benito Juárez"
     },
     {
-        "inegi_id": 9015.0,
+        "inegi_id": 9015,
         "id": 15,
         "id_estado": 9,
         "nombre": "Cuauhtémoc"
     },
     {
-        "inegi_id": 9016.0,
+        "inegi_id": 9016,
         "id": 16,
         "id_estado": 9,
         "nombre": "Miguel Hidalgo"
     },
     {
-        "inegi_id": 9017.0,
+        "inegi_id": 9017,
         "id": 17,
         "id_estado": 9,
         "nombre": "Venustiano Carranza"

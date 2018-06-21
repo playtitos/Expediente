@@ -14,38 +14,34 @@ secc_expediente.controller("cExpediente", function ($scope) {
     };
 
     $scope.init_expediente = function () {
-        $scope.peticionGet($scope.urlGeneral + 'commons/src/estados.json', $scope.exito_estados);
-        $scope.peticionGet($scope.urlGeneral + 'commons/src/nacionalidad.json', $scope.exito_nacionalidad);
-        $scope.peticionGet($scope.urlGeneral + 'commons/src/municipios.json', $scope.exito_municipios);
+        $scope.peticionGet($scope.urlGeneral + 'commons/src/listado.json', $scope.preparaListados);
+        $scope.peticionGet($scope.urlGeneral + 'commons/src/nacionalidad.json', $scope.exitoNacionalidad);
         $scope.dis_municipio = true;
+        $scope.dis_Localidades = true;
         $scope.dis_est_nac = true;
     };
 
-    $scope.exito_estados = function (response) {
+    $scope.preparaListados = function (response) {
         $scope.estados = [];
-        for (const index in response) {
-            var obj = { id: response[index].id, nombre: response[index].name.toUpperCase() };
-            $scope.estados.push(obj);
-        }
-        $scope.estados = $scope.filtrar_por($scope.estados, 'nombre', false);
+        $scope.listadoCompleto = response.results;
+        let listaEstados = [];
+        response.results.map((elemento) => {
+            if (!listaEstados.includes(elemento.NOM_ENT)) {
+                var obj = { id_estado: elemento.CVE_ENT, nombre_estado: elemento.NOM_ENT.toUpperCase() }
+                $scope.estados.push(obj);
+                listaEstados.push(elemento.NOM_ENT);
+            }
+        });
+        $scope.estados = $scope.filtrar_por($scope.estados, 'nombre_estado', false);
     };
 
-    $scope.exito_nacionalidad = function (response) {
+    $scope.exitoNacionalidad = function (response) {
         $scope.nacionalidades = [];
         for (const index in response) {
             var obj = { id: response[index].clave_nacionalidad, nombre: response[index].pais.toUpperCase() };
             $scope.nacionalidades.push(obj);
         }
         $scope.nacionalidades = $scope.filtrar_por($scope.nacionalidades, 'nombre', false);
-    };
-
-    $scope.exito_municipios = function (response) {
-        $scope.municipios = [];
-        $scope.lista_municipios = [];
-        for (const index in response) {
-            var obj = { id: response[index].inegi_id, nombre: response[index].nombre.toUpperCase(), id_estado: response[index].id_estado };
-            $scope.municipios.push(obj);
-        }
     };
 
     $scope.valida_campo = function (campo, valor) {
@@ -55,7 +51,6 @@ secc_expediente.controller("cExpediente", function ($scope) {
                 //validacion = $scope.validaRFC(valor);
                 validacion = $scope.validaCURP(valor);
                 break;
-
             default:
                 break;
         }
@@ -63,12 +58,33 @@ secc_expediente.controller("cExpediente", function ($scope) {
     };
 
     $scope.filtra_municipio = function (estado) {
-        var municipios = $scope.municipios.filter(function (municipio) {
-            return municipio.id_estado === estado;
+        $scope.municipios = [];
+        let listaMunicipios = [];
+        $scope.listadoCompleto.map((elemento) => {
+            if ((!listaMunicipios.includes(elemento.NOM_MUN)) && (elemento.CVE_ENT === estado)) {
+                var obj = { id_municipio: elemento.CVE_MUN, nombre_municipio: elemento.NOM_MUN.toUpperCase() }
+                $scope.municipios.push(obj);
+                listaMunicipios.push(elemento.NOM_MUN);
+            }
         });
-        municipios = $scope.filtrar_por(municipios, 'nombre', false);
-        $scope.lista_municipios = municipios;
+        $scope.municipios = $scope.filtrar_por($scope.municipios, 'nombre_municipio', false);
         $scope.dis_municipio = false;
+        $scope.municipio = '';
+    };
+
+    $scope.filtraLocalidad = function (municipio) {
+        $scope.localidades = [];
+        let listaLocalidades = [];
+        $scope.listadoCompleto.map((elemento) => {
+            if ((!listaLocalidades.includes(elemento.NOM_LOC)) && (elemento.CVE_MUN === municipio)) {
+                var obj = { id_localidad: elemento.CVE_LOC, nombre_localidad: elemento.NOM_LOC.toUpperCase() }
+                $scope.localidades.push(obj);
+                listaLocalidades.push(elemento.NOM_LOC);
+            }
+        });
+        $scope.localidades = $scope.filtrar_por($scope.localidades, 'nombre_localidad', false);
+        $scope.dis_Localidades = false;
+        $scope.localidad = '';
     };
 
     $scope.nac_cambio = function (nac) {

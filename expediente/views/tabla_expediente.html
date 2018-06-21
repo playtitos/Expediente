@@ -73,7 +73,8 @@
                     <span class="asterisco espacio">*</span>
                 </td>
                 <td class="col-md-6">
-                    <select class="form-control" ng-model="estado_nacimiento" ng-options="estado.id as estado.nombre for estado in estados" ng-disabled="dis_est_nac">
+                    <select class="form-control" ng-model="estado_nacimiento" ng-options="estado.id_estado as estado.nombre_estado for estado in estados"
+                        ng-disabled="dis_est_nac">
                         <option class="no-option" value="">-- Seleccione --</option>
                     </select>
                 </td>
@@ -83,7 +84,8 @@
                     <span class="asterisco espacio">*</span>
                 </td>
                 <td class="col-md-6">
-                    <select class="form-control" ng-model="estado_residencia" ng-options="estado.id as estado.nombre for estado in estados" ng-change="filtra_municipio(estado_residencia)">
+                    <select class="form-control" ng-model="estado_residencia" ng-options="estado.id_estado as estado.nombre_estado for estado in estados"
+                        ng-change="filtra_municipio(estado_residencia)">
                         <option class="no-option" value="">-- Seleccione --</option>
                     </select>
                 </td>
@@ -93,8 +95,19 @@
                     <span class="asterisco espacio">*</span>
                 </td>
                 <td class="col-md-6">
-                    <select class="form-control" ng-model="municipio" ng-options="muni.inegi_id as muni.nombre for muni in lista_municipios"
-                        ng-disabled="dis_municipio">
+                    <select class="form-control" ng-model="municipio" ng-options="muni.id_municipio as muni.nombre_municipio for muni in municipios"
+                        ng-change="filtraLocalidad(municipio)" ng-disabled="dis_municipio">
+                        <option class="no-option" value="">-- Seleccione --</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-6">Localidad
+                    <span class="asterisco espacio">*</span>
+                </td>
+                <td class="col-md-6">
+                    <select class="form-control" ng-model="localidad" ng-options="local.id_localidad as local.nombre_localidad for local in localidades"
+                        ng-disabled="dis_Localidades">
                         <option class="no-option" value="">-- Seleccione --</option>
                     </select>
                 </td>
