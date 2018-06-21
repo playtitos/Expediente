@@ -88,6 +88,7 @@ secc_expediente.controller("cExpediente", function ($scope) {
                 //listaLocalidades.push(elemento.NOM_LOC);
             }
         });
+        $scope.localidades.push({ id_localidad: 0000, nombre_localidad: 'NO SE ENCUENTRA LOCALIDAD' })
         $scope.localidades = $scope.filtrar_por($scope.localidades, 'nombre_localidad', false);
         $scope.dis_Localidades = false;
         $scope.localidad = '';
