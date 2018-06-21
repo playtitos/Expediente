@@ -79,12 +79,13 @@ secc_expediente.controller("cExpediente", function ($scope) {
     $scope.filtraLocalidad = function (municipio) {
         $scope.borraErrores();
         $scope.localidades = [];
-        let listaLocalidades = [];
+        //let listaLocalidades = [];
         $scope.listadoCompleto.map((elemento) => {
-            if ((!listaLocalidades.includes(elemento.NOM_LOC)) && (elemento.CVE_MUN === municipio)) {
+            if ($scope.estado_residencia === elemento.CVE_ENT && municipio === elemento.CVE_MUN) {
+                //if ((!listaLocalidades.includes(elemento.NOM_LOC)) && (elemento.CVE_MUN === municipio)) {
                 var obj = { id_localidad: elemento.CVE_LOC, nombre_localidad: elemento.NOM_LOC.toUpperCase() }
                 $scope.localidades.push(obj);
-                listaLocalidades.push(elemento.NOM_LOC);
+                //listaLocalidades.push(elemento.NOM_LOC);
             }
         });
         $scope.localidades = $scope.filtrar_por($scope.localidades, 'nombre_localidad', false);
@@ -100,6 +101,7 @@ secc_expediente.controller("cExpediente", function ($scope) {
 
     $scope.guardarRegistro = function () {
         $scope.borraErrores();
+        $scope.apsegundo = $scope.validaDato($scope.apsegundo);
         if ($scope.validaDato($scope.curp) === '') {
             $scope.muestra_alertas('error', lista_errores['curp_vacio']);
             $scope.error_curp = 'error';
@@ -130,7 +132,23 @@ secc_expediente.controller("cExpediente", function ($scope) {
         } else if ($scope.validaDato($scope.localidad) === '') {
             $scope.muestra_alertas('error', lista_errores['localidad']);
             $scope.error_localidad = 'error';
+        } else {
+            $scope.enviaRegistros();
         }
+    };
+
+    $scope.enviaRegistros = function () {
+        console.log($scope.curp);
+        console.log($scope.apprimero);
+        console.log($scope.apsegundo);
+        console.log($scope.nombre);
+        console.log($scope.fecnac);
+        console.log($scope.sexo);
+        console.log($scope.nacionalidad);
+        console.log($scope.estado_nacimiento);
+        console.log($scope.estado_residencia);
+        console.log($scope.municipio);
+        console.log($scope.localidad);
     };
 
     $scope.borraErrores = function () {
