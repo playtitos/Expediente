@@ -1,7 +1,7 @@
 <div ng-controller="cExpediente" class="completo" ng-init="init_expediente()">
     <div class="completo">
         <div class="ochenta">
-            <table class="table table-hover table-striped table-responsive col-md-12" id="elem-bienvenida">
+            <table class="table table-hover table-striped table-responsive col-md-12">
                 <thead>
                     <tr class="cab-gris">
                         <th class="col-md-6">Campo &nbsp; &nbsp;
@@ -81,6 +81,7 @@
                             <select class="form-control {{error_estado_nacimiento}}" ng-model="estado_nacimiento" ng-options="estado.id_estado as estado.nombre_estado for estado in estados"
                                 ng-disabled="dis_est_nac" ng-change="borraErrores()">
                                 <option class="no-option" value="">-- Seleccione --</option>
+                                <option value="00">NACIDO EN EL EXTRANJERO</option>
                             </select>
                         </td>
                     </tr>

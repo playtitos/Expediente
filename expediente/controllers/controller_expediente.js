@@ -153,23 +153,34 @@ secc_expediente.controller("cExpediente", function ($scope) {
             $scope.muestra_alertas('error', lista_errores['localidad']);
             $scope.error_localidad = 'error';
         } else {
+            ($scope.nacionalidad !== 'MEX') ? ($scope.estado_nacimiento = '000') : ('');
+            ($scope.localidad === 0) ? ($scope.localidad = '0000') : ('');
+            //$scope.fecnac = $scope.cambia_fecha($scope.fecnac);
             $scope.enviaRegistros();
         }
     };
 
     $scope.enviaRegistros = function () {
-        console.log($scope.curp);
-        console.log($scope.apprimero);
-        console.log($scope.apsegundo);
-        console.log($scope.nombre);
-        console.log($scope.fecnac);
-        console.log($scope.sexo);
-        console.log($scope.nacionalidad);
-        console.log($scope.estado_nacimiento);
-        console.log($scope.estado_residencia);
-        console.log($scope.municipio);
-        console.log($scope.localidad);
-        console.log('se guaradron registros')
+        var obj = {
+            folio: 'pruebadefolio1',
+            curp: $scope.curp,
+            primerap: $scope.apprimero,
+            segundoap: $scope.apsegundo,
+            nombre: $scope.nombre,
+            fecnac: $scope.cambia_fecha($scope.fecnac),
+            edonac: $scope.estado_nacimiento,
+            sexo: $scope.cambia_sexo($scope.sexo, 'mf'),
+            nacorigen: $scope.nacionalidad,
+            edo: $scope.estado_residencia,
+            mun: $scope.municipio,
+            loc: $scope.localidad
+        };
+        var url = $scope.urlGeneral + 'php/registra_paciente.php';
+        $scope.peticionPost(url, obj, $scope.exitoRegistroPaciente);
+    };
+
+    $scope.exitoRegistroPaciente = function (data) {
+        (data.data === "exito") ? ($scope.muestra_alertas('exito', 'Se guardó el registro, exitosamente.')) : ($scope.muestra_alertas('error', data.data));
     };
 
     $scope.borraErrores = function () {
