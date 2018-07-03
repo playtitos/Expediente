@@ -1,7 +1,11 @@
 secc_expediente.controller("cExpediente", function ($scope) {
 
     var sort_by = function (campo, reverse, primer) {
-        var key = primer ? function (x) { return primer(x[campo]) } : function (x) { return x[campo] };
+        var key = primer ? function (x) {
+            return primer(x[campo])
+        } : function (x) {
+            return x[campo]
+        };
         reverse = !reverse ? 1 : -1;
         return function (a, b) {
             return a = key(a), b = key(b), reverse * ((a > b) - (b > a));
@@ -37,7 +41,10 @@ secc_expediente.controller("cExpediente", function ($scope) {
         let listaEstados = [];
         response.results.map((elemento) => {
             if (!listaEstados.includes(elemento.NOM_ENT)) {
-                var obj = { id_estado: elemento.CVE_ENT, nombre_estado: elemento.NOM_ENT.toUpperCase() };
+                var obj = {
+                    id_estado: elemento.CVE_ENT,
+                    nombre_estado: elemento.NOM_ENT.toUpperCase()
+                };
                 $scope.estados.push(obj);
                 listaEstados.push(elemento.NOM_ENT);
             }
@@ -48,7 +55,10 @@ secc_expediente.controller("cExpediente", function ($scope) {
     $scope.exitoNacionalidad = function (response) {
         $scope.nacionalidades = [];
         for (const index in response) {
-            var obj = { id: response[index].clave_nacionalidad, nombre: response[index].pais.toUpperCase() };
+            var obj = {
+                id: response[index].clave_nacionalidad,
+                nombre: response[index].pais.toUpperCase()
+            };
             $scope.nacionalidades.push(obj);
         }
         $scope.nacionalidades = $scope.filtrar_por($scope.nacionalidades, 'nombre', false);
@@ -66,7 +76,10 @@ secc_expediente.controller("cExpediente", function ($scope) {
         let listaMunicipios = [];
         $scope.listadoCompleto.map((elemento) => {
             if ((!listaMunicipios.includes(elemento.NOM_MUN)) && (elemento.CVE_ENT === estado)) {
-                var obj = { id_municipio: elemento.CVE_MUN, nombre_municipio: elemento.NOM_MUN.toUpperCase() }
+                var obj = {
+                    id_municipio: elemento.CVE_MUN,
+                    nombre_municipio: elemento.NOM_MUN.toUpperCase()
+                }
                 $scope.municipios.push(obj);
                 listaMunicipios.push(elemento.NOM_MUN);
             }
@@ -83,12 +96,18 @@ secc_expediente.controller("cExpediente", function ($scope) {
         $scope.listadoCompleto.map((elemento) => {
             if ($scope.estado_residencia === elemento.CVE_ENT && municipio === elemento.CVE_MUN) {
                 //if ((!listaLocalidades.includes(elemento.NOM_LOC)) && (elemento.CVE_MUN === municipio)) {
-                var obj = { id_localidad: elemento.CVE_LOC, nombre_localidad: elemento.NOM_LOC.toUpperCase() }
+                var obj = {
+                    id_localidad: elemento.CVE_LOC,
+                    nombre_localidad: elemento.NOM_LOC.toUpperCase()
+                }
                 $scope.localidades.push(obj);
                 //listaLocalidades.push(elemento.NOM_LOC);
             }
         });
-        $scope.localidades.push({ id_localidad: 0000, nombre_localidad: 'OTRA, NO ESPECIFICADA EN EL CATÁLOGO' })
+        $scope.localidades.push({
+            id_localidad: 0000,
+            nombre_localidad: 'OTRA, NO ESPECIFICADA EN EL CATÁLOGO'
+        })
         $scope.localidades = $scope.filtrar_por($scope.localidades, 'nombre_localidad', false);
         $scope.dis_Localidades = false;
         $scope.localidad = '';
@@ -97,7 +116,7 @@ secc_expediente.controller("cExpediente", function ($scope) {
     $scope.nac_cambio = function (nac) {
         $scope.borraErrores();
         $scope.estado_nacimiento = '';
-        (nac == 'MEX') ? $scope.dis_est_nac = false : $scope.dis_est_nac = true;
+        (nac == 'MEX') ? $scope.dis_est_nac = false: $scope.dis_est_nac = true;
     };
 
     $scope.guardarRegistro = function () {
@@ -150,6 +169,7 @@ secc_expediente.controller("cExpediente", function ($scope) {
         console.log($scope.estado_residencia);
         console.log($scope.municipio);
         console.log($scope.localidad);
+        console.log('se guaradron registros')
     };
 
     $scope.borraErrores = function () {
